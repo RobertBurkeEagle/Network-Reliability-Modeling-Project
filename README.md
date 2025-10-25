@@ -37,3 +37,22 @@ Instructions to Run:
 2. Clone the repository: https://github.com/RobertBurkeEagle/Network-Reliability-Modeling-Project.git
 
 3. After that the project will open and you can begin running the models
+
+## 📂 Project Structure
+
+- runSingleLinkSim.m: Simulates a single-link network.
+- runTwoSeriesLinkSim.m: Simulates a two-series-link network.
+- runTwoParallelLinkSim.m: Simulates a two-parallel-link network.
+- runCompoundNetworkSim.m: Simulates a compound network.
+- runCustomCompoundNetworkSim.m: Simulates a custom compound network with per-link probabilities.
+- Program files (e.g., singleLinkNetworkSim.m, twoLinkNetworkSim.m, etc.): Generate output figures with comments for clarity.
+
+### 🖼️ Screenshots
+
+![SingleLinkSimComboGraph](https://github.com/user-attachments/assets/1ee39168-b7a8-4464-a9e2-ce9f3ea0d191) ![CompoundComboGraph](https://github.com/user-attachments/assets/9124b8f1-57ac-4d56-931a-7efca33b78b4)
+
+
+👤 Author
+Robert Burke
+
+Oklahoma Christian University
