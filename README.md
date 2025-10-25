@@ -1,18 +1,39 @@
-**LAN Reliability Modeling Project**
-Welcome to my LAN Reliability Modeling Project! This repository contains MATLAB code for a network engineering project where I explored how many attempts are needed to send messages (made up of K packets) through various network setups, including single-link, two-series-link, two-parallel-link, compound, and custom compound networks with varying failure probabilities. I ran simulations for K values (1, 5, 15, 50, 100 and 1, 5, 10) and failure probabilities from 0 to 0.99, with 1000 iterations each, generating graphs with logarithmic y-axes for clarity.
-What’s Inside
+# 📡 LAN Reliability Modeling Project
 
-runSingleLinkSim.m: Simulates a single-link network.
-runTwoSeriesLinkSim.m: Simulates a two-series-link network.
-runTwoParallelLinkSim.m: Simulates a two-parallel-link network.
-runCompoundNetworkSim.m: Simulates a compound network.
-runCustomCompoundNetworkSim.m: Simulates a custom compound network with per-link probabilities.
-Program files (e.g., singleLinkNetworkSim.m, twoLinkNetworkSim.m, etc.): Generate the required output figures.
+**LAN Reliability Modeling Project** is a MATLAB-based exploration of network reliability, where I simulate the number of attempts needed to send messages (composed of K packets) through various network configurations. This project visualizes how single-link, two-series-link, two-parallel-link, compound, and custom compound networks perform under different failure probabilities.
 
-How to Use
+This project offers an educational dive into network engineering concepts, with interactive simulations and detailed graphs using logarithmic y-axes.
 
-Open MATLAB and go to New -> Project -> From Git.
-Clone this repository: https://github.com/RobertBurkeEagle/Network-Reliability-Modeling-Project.git.
-Once the project opens, run the program files (e.g., singleLinkNetworkSim.m) to generate the graphs. Ensure all function files are in your MATLAB path.
+---
 
-Feel free to explore the code, which includes comments for clarity, and check out the accompanying report for details on the simulations and results!
+## ✨ Features
+
+- 📊 **Simulated Network Topologies** – Analyze single-link, series, parallel, compound, and custom networks in real time.
+- 🔍 **Variable Failure Probabilities** – Test K values (1, 5, 15, 50, 100, and 1, 5, 10) with p from 0 to 0.99.
+- 📈 **Detailed Graphs** – View calculated (solid lines) vs. simulated (hollow circles) results with logarithmic y-axes.
+- ⚙️ **1000 Iterations** – Ensures reliable averages for each simulation.
+- 📝 **Educational Focus** – Designed to help learners grasp network reliability through visualization.
+
+---
+
+## 🛠️ Technology Stack
+
+- **Language/Environment:** [MATLAB](https://www.mathworks.com/)
+- **Version Control:** [Git](https://git-scm.com/)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [MATLAB](https://www.mathworks.com/products/matlab.html) (any recent version)
+
+### Installation & Running
+
+Instructions to Run:
+1. Open Matlab and go to new -> project -> from Git 
+
+2. Clone the repository: https://github.com/RobertBurkeEagle/Network-Reliability-Modeling-Project.git
+
+3. After that the project will open and you can begin running the models
